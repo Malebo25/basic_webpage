@@ -1,6 +1,6 @@
 @font-face{
     font-family: "flowers";
-    src: url('/basic_website/autumn-flowers-font/AutumnFlowers-9YVZK.otf')
+    src: url('basic_website/autumn-flowers-font/AutumnFlowers-9YVZK.otf')
 }
 
 
@@ -84,14 +84,13 @@ table{
 th, 
 td {
     border:1px solid cornflowerblue;
-    padding:10px 15px
+    padding:10px 15px;
     }
 
 
 .language{
     left-margin:20em;
     padding-left: 10em;
-    display:flex;
     align-items: center;
     justify-content: space-around;
 
@@ -101,6 +100,7 @@ td {
  width: 200px;
  height: 200px;
  
+
 }
 .locations{
     display:flex;
