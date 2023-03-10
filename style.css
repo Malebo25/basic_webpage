@@ -1,0 +1,107 @@
+@font-face{
+    font-family: "flowers";
+    src: url('/basic_website/autumn-flowers-font/AutumnFlowers-9YVZK.otf')
+}
+
+
+body{
+
+    background: -webkit-linear-gradient(#a1d3b0, #f6f1d3);
+    color:#1b4332 ;
+}
+
+
+
+.box{
+    /*box-modedl*/
+    border:20px solid #cad2c5;
+    padding: 1em;
+    margin:1em;
+    margin-bottom: 0.5em;
+    margin-left:0em;
+    border-radius: 0.1em;
+}
+
+body{
+    background-color: white;
+    margin:0em;
+}
+.intro{
+    display:flex;
+    /*justify-content: center;*/
+    align-items: center;
+    justify-content: space-around;
+}
+.first{
+    width:20em;
+    display: float;
+    margin-left: 15em;
+}
+
+h1{
+   /* text-align: center;*/
+   justify-content: center;
+   left-margin:20em;
+   font-size: 50px;
+   font-family: "flowers";
+
+}
+h2{
+    font-family: "flowers";
+}
+
+
+
+.city p{
+
+
+   width:40%;
+
+}
+
+.city-wrap{
+    display:flex;
+    /* justify-content: center;*/
+}
+
+.city-wrap img{
+    margin-right: 3em;
+}
+
+.city{
+    /*justify-content: center;*/
+    padding-left: 10em;*
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+table{
+    border-collapse:collapse;
+}
+
+th, 
+td {
+    border:1px solid cornflowerblue;
+    padding:10px 15px
+    }
+
+
+.language{
+    left-margin:20em;
+    padding-left: 10em;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.locations img{
+ width: 200px;
+ height: 200px;
+ 
+}
+.locations{
+    display:flex;
+}
