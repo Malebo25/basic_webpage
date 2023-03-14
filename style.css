@@ -166,6 +166,11 @@ td {
         display: flex;
         flex-direction: row-reverse;
     }
+    .flowytext{
+        display:flex;
+        margin: auto;
+    
+    }
 }
 
 
@@ -191,5 +196,11 @@ td {
     }
     .bigscr{
         flex-direction: column;
+    }
+    .places img{
+        margin-right: 1em;
+    }
+    .city-wrap p{
+        padding-left: 1em;
     }
 }
