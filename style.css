@@ -148,12 +148,12 @@ td {
         flex-direction: column;
         justify-content: center;
         margin: auto;
-        width:80%;
+        width:90%;
         /*align-items: center;*/
     }
     .locations{
         justify-content: center;
-        float:left;
+        /*float:left;*/
     }
     .box{
        
@@ -177,7 +177,26 @@ td {
 
 @media(min-width:600px){
     .locations{
+        justify-content: center;
         display: flex;
+        
+    }
+    .intro h1{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        object-position: center;
+        width: 100%;
+        margin: auto;
+        
+    
+    }
+    .intro img{
+        display: flex;
+        justify-content: center;
+        object-position: center;
+        margin-right: 400px;
+
     }
     
     h1{
@@ -185,14 +204,29 @@ td {
     }
     .places ul{
         padding-left: 1em;
+        
+    }
+    
+    .places{
+        justify-content: center;
+        margin: auto;
+        width: 80%;
+    }
+    .places {
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
     }
     .city-wrap{
         display:flex;
         justify-content: center;
         align-items:center;
-        margin:auto;
-        padding:auto;
-        width:80%
+        width:60%;
+        padding-right: 800px;
+        overflow: hidden;
+    }
+    .city{
+        overflow: hidden;
     }
     .bigscr{
         flex-direction: column;
@@ -203,4 +237,28 @@ td {
     .city-wrap p{
         padding-left: 1em;
     }
+    .language-wrap{
+        flex-direction: column;
+        justify-content:center;
+        /*align-items: center;*/
+        margin:auto;
+        width: 100%;
+    }
+    table {
+        width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+      
+    th {
+        height: 70px;
+    }
+    .language-wrap p{
+        justify-content: center;
+        margin:auto;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+
 }
