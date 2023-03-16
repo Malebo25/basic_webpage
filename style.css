@@ -12,27 +12,14 @@ body{
     
 }
 img{
-    border:8px solid #cad2c5;
-    
+    border:8px solid #cad2c5;  
     
 }
-.column{
-    flex-direction: column;
-}
+
 .locations ul{
     /*padding-left: 1em;*/
 }
 
-
-.box{
-    /*box-modedl*/
-    border:20px solid #cad2c5;
-    padding: 1em;
-    margin:1em;
-    margin-bottom: 0.5em;
-    margin-left:0em;
-    border-radius: 0.1em;
-}
 
 .intro{
     display:flex;
@@ -42,8 +29,8 @@ img{
 }
 
 .intro img{
-    width:270px;
-    height:270px;
+    width:200px;
+    height:200px;
 }
 
 
@@ -62,7 +49,9 @@ h1{
 }
 
 .city-wrap img{
-    margin: 3em;
+    /*margin: 3em;*/
+    width:330px;
+    height:330px;
     justify-content: center;
     margin:auto;
     
@@ -93,6 +82,7 @@ td {
 }
 .clearfix{
     overflow: auto;
+
 }
 
 .locations img{
@@ -100,29 +90,14 @@ td {
  height: 200px;
  float: left;
 
-
-}
-
-.castle {
-    /*display:flex;*/
-
-}
-
-.places img{
-
-    margin-left: 3em;
-    margin-right: 8px;
 }
 
 
-.places h2{
-    padding-left: 2em;
-}
 
 @media(max-width:800px){
     .castle {
         display:flex;
-    
+        overflow: hidden;
     }
     body{
         margin:auto;
@@ -148,12 +123,13 @@ td {
         flex-direction: column;
         justify-content: center;
         margin: auto;
-        width:90%;
+        width:80%;
         /*align-items: center;*/
     }
     .locations{
         justify-content: center;
-        /*float:left;*/
+        margin: auto;
+        width: 80%;
     }
     .box{
 
@@ -169,6 +145,15 @@ td {
         margin: auto;
     
     }
+    .lastheading{
+        justify-content: center;
+        margin: auto;
+        width:80%
+    }
+    table{
+        width: 100%;
+    }
+    
 
 }
 
@@ -178,6 +163,7 @@ td {
     .locations{
         justify-content: center;
         display: flex;
+        width: 100%;
         
     }
     .intro h1{
@@ -193,7 +179,9 @@ td {
     .places img{
         margin-right: 2em;
     }
-
+    .intro{
+        overflow: hidden;
+    }
     .intro img{
         display: flex;
         justify-content: center;
@@ -206,41 +194,40 @@ td {
         padding-left: 300px;
     }
     .places ul{
-       padding-right: 1em;  
+       padding-right: 1em; 
     }
     
     .places{
         justify-content: center;
         margin: auto;
-        width: 100%;
+        width: 80%;
     }
     .places {
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: 80%;
     }
     .city-wrap{
-        display:flex;
         justify-content: center;
-        align-items:center;
-        width:60%;
-        padding-right: 800px;
-        overflow: hidden;
+        width:100%;
+        overflow: auto;
+        
     }
-    .city{
-        overflow: hidden;
+    .citydisplay{
+        justify-content: center;
+        display: inline-flex;
+        
     }
-    .bigscr{
-        flex-direction: column;
-    }
+    
     .city-wrap p{
+        padding-top: 7em;
         padding-left: 1em;
     }
     .language-wrap{
-        flex-direction: column;
         justify-content:center;
         margin:auto;
         width: 100%;
+        overflow: auto;
     }
     table {
         width: 100%;
