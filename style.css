@@ -183,6 +183,7 @@ td {
     }
     .places img{
         margin-right: 2em;
+        width:50%;
     }
     .intro{
         overflow: hidden;
