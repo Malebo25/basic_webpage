@@ -160,6 +160,7 @@ td {
 
 
 @media(min-width:800px){
+    
     .locations{
         justify-content: center;
         display: flex;
@@ -195,7 +196,7 @@ td {
     }
     .places ul{
        padding-right: 1em; 
-       overflow: hidden;
+       /*overflow: hidden;*/
        
     }
     
