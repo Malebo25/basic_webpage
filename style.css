@@ -160,6 +160,10 @@ td {
 
 
 @media(min-width:800px){
+
+    body{
+        width:80%;
+    }
     
     .locations{
         justify-content: center;
@@ -247,6 +251,11 @@ td {
         width: 100%;
         padding-bottom: 1em;
     }
-
+    body{
+        width:80%;
+        justify-content: center;
+        margin:auto;
+    }
+    
 
 }
