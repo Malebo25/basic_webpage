@@ -261,6 +261,8 @@ td {
 }
 
 
+
+
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
     width: 80%;
@@ -269,6 +271,11 @@ td {
   
 }
 @media (max-width: 60em){
+
+.container{
+  width: 80%;
+  justify-content: center;
+}
 
 .city{
   display: flex;

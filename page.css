@@ -1,0 +1,19 @@
+a{
+    background:#B99095 ;
+    color: #3D5B59;
+    font-size: 40px;
+    border-radius: 14px;
+    h3{
+        font-size: 50px;
+    }
+
+}
+body{
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background-color: antiquewhite;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

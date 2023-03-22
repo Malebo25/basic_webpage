@@ -6,17 +6,12 @@
 
 body{
 
-    background: -webkit-linear-gradient(#B99095, #FCB5AC,#3D5B59);
+    background: -webkit-linear-gradient(#B99095, #FCB5AC);
     color:#FFFFFF;
     width:100%;
     
 }
-a{
-    background:#B99095 ;
-    color: #3D5B59;
-    font-size: 50px;
-   
-}
+
 .flexy{
     width: 100%;
     text-align: center;
