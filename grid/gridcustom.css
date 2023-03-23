@@ -13,7 +13,7 @@ th,td{
 
 }
 body{
-    background: -webkit-linear-gradient(#B99095,#FCB5AC);
+    background: -webkit-linear-gradien(#FCB5AC);
     
 }
 @media only screen and (min-width: 60em){
@@ -70,5 +70,6 @@ p{
 
 
 *{
+    background-color: #FCB5AC;
  
 }

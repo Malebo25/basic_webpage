@@ -87,10 +87,11 @@ td {
     margin:auto;
 
 }
-.places{
+.locations{
     width:80%;
     justify-content:center;
     margin:auto;
+
 }
 .clearfix{
     overflow: auto;
@@ -194,7 +195,7 @@ td {
     
     }
     .places img{
-        margin-right: 2em;
+        /*margin-right: 2em;*/
         /*width:50%;*/
     }
     .intro{
